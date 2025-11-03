@@ -21,7 +21,7 @@ const Home = () => {
     }
 
   return (
-    <div className='p-4 w-full sm:w-[500px] lg:w-[650px] bg-gray-700 mx-auto'>
+    <div className='p-4 mt-1 w-full sm:w-[500px] lg:w-[650px] bg-gray-700 mx-auto'>
         <h1 className='text-2xl font-bold text-white text-center bg-fuchsia-500 p-1 mb-2'> Todo App </h1>
 
         <NewTodo onAddTodo={handleTodo} />

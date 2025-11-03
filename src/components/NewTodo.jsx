@@ -31,7 +31,7 @@ const NewTodo = (props) => {
             <textarea value={desc} onChange={handleChange} name="desc" id="desc" rows={2} className='border rounded-lg w-full p-1 bg-amber-100'></textarea>
         </div>
 
-        <button type='submit' className='border w-full rounded-xl bg-fuchsia-400 font-bold cursor-pointer hover:bg-fuchsia-500'> Add Todo </button>
+        <button type='submit' className='border mt-1 w-full text- rounded-xl bg-fuchsia-400 font-bold cursor-pointer hover:bg-fuchsia-500'> Add Todo </button>
     
     </form>
   )
