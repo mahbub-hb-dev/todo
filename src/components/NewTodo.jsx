@@ -23,15 +23,15 @@ const NewTodo = (props) => {
 
         <div className='mb-1'>
             <label htmlFor="title"> Title : </label>
-            <input value={title} onChange={handleChange} type="text" name="title" id="title" className='border rounded-md py-1 px-2 w-full bg-amber-100' />
+            <input value={title} onChange={handleChange} type="text" name="title" id="title" className='border rounded-md p-2 w-full bg-amber-100' />
         </div>
 
         <div className='py-2'>
             <label htmlFor="desc"> Description : </label> <br />
-            <textarea value={desc} onChange={handleChange} name="desc" id="desc" rows={2} className='border rounded-lg w-full p-1 bg-amber-100'></textarea>
+            <textarea value={desc} onChange={handleChange} name="desc" id="desc" rows={2} className='border rounded-lg w-full p-2 bg-amber-100'></textarea>
         </div>
 
-        <button type='submit' className='border mt-1 w-full text- rounded-xl bg-fuchsia-400 font-bold cursor-pointer hover:bg-fuchsia-500'> Add Todo </button>
+        <button type='submit' className='border sm:p-1 mt-1 w-full text- rounded-xl bg-fuchsia-400 font-bold cursor-pointer hover:bg-fuchsia-500'> Add Todo </button>
     
     </form>
   )
